@@ -1,3 +1,63 @@
+fieldset{
+  padding: 30px 20px;
+  width: 40%;
+}
+
+h1, h2, h3, h4, p{
+  text-align: center;
+  width: 100%;
+}
+
+#welcome-message p{
+  text-align: center;
+}
+
+img{
+  margin: auto;
+  display: block;
+  width: 300px;
+}
+
+fieldset{
+  border-radius: 5px;
+  border-style: dashed;
+}
+
+.form-item{
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form-item textarea, .form-item input{
+  position: absolute;
+  left: 90px;
+}
+
 body{
-  background: blue;
+  font-family: 'Muli', sans-serif;
+}
+
+a:link {
+  color: hsla(227, 100%, 18%, 1);
+}
+
+a:visited{
+  color: hsla(0, 100%, 18%, 1);
+}
+
+.title{
+  background-image: url(snow.jpg);
+}
+
+@media only screen and (max-width: 568px) {
+    body {
+        font-size: 0.5em;
+    }
+    img{
+      height: 100px;
+      width: 150px;
+    }
+    input, textarea{
+      width: 100px;
+    }
 }
